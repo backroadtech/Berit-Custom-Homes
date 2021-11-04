@@ -242,6 +242,7 @@ blockquote p {
 }
 .btn span {
 	position: relative;
+	color: #fff;
 	transition: all .2s ease-in-out;
 	float: left;
 	left: 0;
@@ -444,7 +445,7 @@ blockquote p {
 .header-btn {
 	float: right;
     position: relative;
-    color: #292929;
+    color: #fff;
     font-size: 11px;
     font-weight: 700;
 	width: 180px;
@@ -1750,7 +1751,7 @@ footer.main-footer{
 	height: auto;
 }
 .hero-wrap-container .overlay , .hero-wrap_custom .overlay {
-	opacity: 0.4;
+	opacity: 0.1;
 }
 .hero-wrap-container .hero-scroll-down-notifer , .hero-wrap_custom .hero-scroll-down-notifer {
     right: auto;
@@ -2396,7 +2397,7 @@ footer.main-footer{
 .about-img-title.ait_2 {
 	left: auto;
 	right: -60px;
-	color: #03246a;
+	color: #fff;
 }
 .about-img img {
 	position: relative;
@@ -2561,6 +2562,7 @@ footer.main-footer{
 .nb_btn {
 	float: right;
 	padding: 15px 35px;
+	color: #fff;
 	font-size: 11px;
 	font-weight: 600;
 	transition: all 300ms linear;
