@@ -269,33 +269,63 @@
 								<div class="card-item fl-wrap">
 									<i class="fal fa-map-marked"></i>
 									<span class="card-item_num">03.</span>
-									<h4>Our Adress </h4>
+									<h4>Our Address </h4>
 									<!--<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. </p>-->
 									<a href="https://www.google.com/maps/place/McAllen,+TX/@26.2259141,-98.396726,11z/data=!3m1!4b1!4m5!3m4!1s0x866576324d9637df:0x2f1d39a9b52c0eb8!8m2!3d26.2034071!4d-98.2300124" class="card-link">McAllen TX, 78501</a>
 								</div>
 							</div>
 							<!--card-item end -->
 						</div>
-						<div class="contacts-opt fl-wrap">
+						<!--<div class="contacts-opt fl-wrap">
 							<div class="contact-social">
 								<span class="cs-title">Find us on: </span>
 								<ul>
 									<li><a href="#" target="_blank"><i class="fab fa-facebook-f"></i></a></li>
 									<li><a href="#" target="_blank"><i class="fab fa-twitter"></i></a></li>
 									<li><a href="#" target="_blank"><i class="fab fa-instagram"></i></a></li>
-									<!--<li><a href="#" target="_blank"><i class="fab fa-vk"></i></a></li>-->
 								</ul>
 							</div>
 							<a href="#" class="btn   float-btn   cf_btn"><i class="fas fa-caret-right"></i><span>Request A Quote</span></a>
 							<div class="contact-notifer">We will try to answer the message within a short time.</div>
+						</div>-->
+
+						<!--contact-form-wrap -->	
+
+						<br>
+						<div>
+							<div class="contact-form-container">
+								<div class="contact-form-main fl-wrap">
+									<div class="contact-form-header">
+										<h4>Get In Touch Us Today</h4>
+										<!--<span class="close-contact-form"><i class="fas fa-times"></i></span>-->
+									</div>
+									<div id="contact-form" class="contact-form fl-wrap">
+										<div id="message"></div>
+										<form  class="custom-form" action="php/contact.php" name="contactform" id="contactform">
+											<fieldset>
+				 
+												<input type="text" name="name" id="name" placeholder="Your Name *" value=""/>
+				 
+												<input type="text"  name="email" id="email" placeholder="Email Address*" value=""/>
+												<textarea name="comments"  id="comments" cols="40" rows="3" placeholder="Your Message:"></textarea>
+											</fieldset>
+											<button class="btn float-btn" style="margin-top:25px;" id="submit"><i class="fas fa-caret-right"></i><span>Send Message</span></button>
+										</form>
+									</div>
+									<!-- contact form  end--> 					
+								</div>
+							</div>
 						</div>
-						<div class="map-links_title">Location of our offices:</div>
-						<div class="map-links_tabs">
+						<!--contact-form-wrap end-->
+<br>
+						<!--<div class="map-links_title">Location of our offices:</div>-->
+						<!--<div class="map-links_tabs">
 							<a class="map-link ml_act" href="#" data-linklat="40.7427837" data-linklong="-73.11445617"><span>01.</span> McAllen Office</a>
-							<!--<a class="map-link" href="#" data-linklat="38.90706436" data-linklong="-77.05604553"><span>02.</span> Washington Office</a>
+							<a class="map-link" href="#" data-linklat="38.90706436" data-linklong="-77.05604553"><span>02.</span> Washington Office</a>
 							<a class="map-link" href="#" data-linklat="42.33862563" data-linklong="-71.03090286"><span>03.</span> Boston Office</a>-->
-						</div>
-						<div class="map-container mapC_vis">
+						<!--</div>-->
+						
+						<div style="margin-top: 50px;" class="map-container mapC_vis">
 							<div id="singleMap" data-latitude="40.7427837" data-longitude="-73.11445617"></div>
 							<div class="scrollContorl"></div>
 						</div>
