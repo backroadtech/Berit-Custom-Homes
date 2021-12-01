@@ -306,7 +306,10 @@
 									</div>
 									<div id="contact-form" class="contact-form fl-wrap">
 										<div id="message"></div>
-										<form  class="custom-form" method="POST" data-netlify="true" name="contactform" id="contactform">
+										<form  class="custom-form" method="POST" data-netlify="true" name="contactform" id="contactform" netlify-honeypot="bot-field" netlify>
+											<p style="visibility: hidden;">
+												<label>Humans Don't Fill This Out</label><input name=bot-field/>
+												</p>
 											<fieldset>
 				 
 												<input type="text" name="name" id="name" placeholder="Your Name *" value=""/>
@@ -314,6 +317,9 @@
 												<input type="text"  name="email" id="email" placeholder="Email Address*" value=""/>
 												<textarea name="comments"  id="comments" cols="40" rows="3" placeholder="Your Message:"></textarea>
 											</fieldset>
+											<div class="form-group">
+												<div data-netlify-recaptcha></div>    
+											</div>
 											<button class="btn float-btn" style="margin-top:25px;" id="submit"><i class="fas fa-caret-right"></i><span>Send Message</span></button>
 										</form>
 									</div>
