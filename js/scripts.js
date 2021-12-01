@@ -192,7 +192,7 @@
              }
          }
      });
-     //   Contact form------------------
+    /* //   Contact form------------------
      $(document).on('submit', '#contactform', function() {
          var a = $(this).attr("action");
          $("#message").slideUp(750, function() {
@@ -224,7 +224,7 @@
      $('.contact-form-overlay , .close-contact-form').on("click", function() {
          $('.contact-form-wrap').hide();
          $("html, body").removeClass("hid-body");
-     });
+     });*/
      //   mailchimp------------------
      $("#subscribe").ajaxChimp({
          language: "eng",
